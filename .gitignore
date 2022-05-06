@@ -1,0 +1,9 @@
+.DS_STORE
+.buckd
+buck.exe
+buck-out
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-compiler-npe
+*.class

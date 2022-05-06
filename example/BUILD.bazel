@@ -1,0 +1,13 @@
+java_import(
+    name = "jakarta",
+    jars = [
+        "jakarta.ws.rs-api-2.1.6.jar",
+    ]
+)
+
+java_library(
+    name = "problem",
+    srcs = ["Problem.java"],
+    deps = [":jakarta"],
+    javacopts = ["--release", "11"]
+)
